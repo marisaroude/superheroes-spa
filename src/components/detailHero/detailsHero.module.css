@@ -1,0 +1,67 @@
+.container{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerIcons{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.containerCard{
+    width: 70%;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.5);
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerLogoHouse{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.containerImage{
+    min-width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.containerBody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.containerText{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.containerText span{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.containerText label{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.pressable{
+    cursor: pointer;
+}
+
+.pressable img:hover{
+   width: 25px;
+   height: 25px;
+   transform: scale(1.3);
+
+}
